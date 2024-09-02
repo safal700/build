@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <style>
+        body{
+            background-image:url(cons.webp) ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .services {
+    padding: 4rem 1rem;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.services h2:hover{
+  text-decoration: underline;
+}
+
+.services-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #ff6f61;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+    </style>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 style="margin-bottom: 100px;">Our Services</h2>
+            <div class="services-grid" style="margin-top: 300px;">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Service One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur urna at lectus egestas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Service Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur urna at lectus egestas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Service Three</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur urna at lectus egestas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

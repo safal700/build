@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Building Website</title>
+</head>
+<style>
+    /* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+/* Full-Height Background */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+/* About Section */
+.about-section {
+    background: linear-gradient(135deg, #2c3e50 30%, #4ca1af 100%);
+    padding: 100px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 40px 0;
+    position: relative;
+    color: #ffffff;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    color: #ffffff;
+    background: #e67e22;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #d35400;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    color: cadetblue;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .about-section {
+        padding: 70px 15px;
+    }
+}
+
+</style>
+<body>
+    <section class="about-section">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>
+                We are a leading construction company committed to delivering high-quality building solutions. With years of experience, we specialize in residential, commercial, and industrial projects, ensuring that every project is completed with the highest standards.
+            </p>
+            <p>
+                Our team of skilled professionals is dedicated to providing innovative designs, sustainable practices, and exceptional craftsmanship. We take pride in turning your vision into reality, whether it's a new build, renovation, or restoration.
+            </p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Other sections of the website -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p style="color: rgb(2, 9, 49);">Get in touch with us for more information or to discuss your project.</p>
+            <!-- Contact form or details here -->
+        </div>
+    </section>
+</body>
+</html>

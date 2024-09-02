@@ -1,0 +1,89 @@
+body{
+    background-color: #f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.nav-item:hover{
+   text-decoration: underline;
+}
+.navbar nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-Light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-Light .navbar-brand:focus,
+.navbar-Light .navbar-brand:hover{
+    color: #000;
+    text-decoration: underline solid black;
+}
+.navbar-Light .navbar-nav .navbar-Link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.services .card-body i{
+    font-size: 50px;
+}
+.avatar.card-body i{
+    font-size: 20px;
+}
+.portfolio .card{
+    box-shadow: 15px 15px  40px rgba(0, 0, 0, 0.15);
+}
+.row, .col-12, .col-md-6, .col-lg-3{
+    box-shadow: 15px 15px  40px rgba(0, 0, 0, 0.15);
+}
+.card-body img{
+    transition: 1s;
+}
+.card-body img:hover{
+    cursor: pointer;
+    transform: scale(1.05) ;
+}
+.socials i{
+    font-size: 20px;
+}
+.socials i:hover{
+    cursor: pointer;
+    color:blue;
+}
